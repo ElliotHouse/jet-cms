@@ -86,6 +86,6 @@ class Frontpage extends Component
         return view('livewire.frontpage', [
             'sideBarLinks' => $this->sideBarLinks(),
             'topNavLinks' => $this->topNavLinks(),
-        ])->layout('layouts.site');
+        ])->layout('layouts.frontpage');
     }
 }
